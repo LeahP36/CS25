@@ -1,0 +1,23 @@
+h1 {
+	color: darkred;
+}
+
+body {
+	background-color:#ffe0e0;
+	color: darkred;
+}
+ul {
+  list-style-type: none;
+}
+.homePage {
+   float: left;
+   margin-left: 50px; 
+   padding: 10px; 
+}
+a {
+  color: darkred;
+}
+a:hover {
+  color: floralwhite;
+}
+
