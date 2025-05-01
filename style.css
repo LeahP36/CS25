@@ -9,9 +9,9 @@ body {
 ul {
   list-style-type: none;
 }
-.homePage {
+#homePage {
    float: left;
-   margin-left: 50px; 
+   margin-left: 0px; 
    padding: 10px; 
 }
 a {
@@ -19,5 +19,36 @@ a {
 }
 a:hover {
   color: floralwhite;
+}
+
+.topnav {
+   background-color:darkred;
+   overflow: hidden;
+}
+
+.topnav a {
+   float: left;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.topnav a:hover {
+   background-color:#ffe0e0;
+   color: white;
+}
+
+.topnav a.active {
+   background-color:pink;
+   color: white;
+}
+
+.colorBand {
+  background:pink;
+  height: 80px;
+  width: 100%;
+  padding: 15px;
 }
 
